@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renci.SshNet.New", "Renci.SshNet.New\Renci.SshNet.New.csproj", "{217094B0-3CF8-4219-84F0-ACAE915A06E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renci.SshNet.New.App", "Renci.SshNet.New.App\Renci.SshNet.New.App.csproj", "{878478E2-27CD-4AB7-BC9C-6027301DE854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SshNet.Security.Cryptography.NETStandard.New", "SSH.NET.Cryptography\src\SshNet.Security.Cryptography.NETStandard.New\SshNet.Security.Cryptography.NETStandard.New.csproj", "{697EFC94-B14A-44F6-B237-0712225F4B2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217094B0-3CF8-4219-84F0-ACAE915A06E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217094B0-3CF8-4219-84F0-ACAE915A06E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217094B0-3CF8-4219-84F0-ACAE915A06E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217094B0-3CF8-4219-84F0-ACAE915A06E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878478E2-27CD-4AB7-BC9C-6027301DE854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878478E2-27CD-4AB7-BC9C-6027301DE854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878478E2-27CD-4AB7-BC9C-6027301DE854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878478E2-27CD-4AB7-BC9C-6027301DE854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697EFC94-B14A-44F6-B237-0712225F4B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697EFC94-B14A-44F6-B237-0712225F4B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697EFC94-B14A-44F6-B237-0712225F4B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697EFC94-B14A-44F6-B237-0712225F4B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

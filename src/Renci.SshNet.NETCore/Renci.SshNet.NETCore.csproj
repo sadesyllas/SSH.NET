@@ -6,7 +6,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AssemblyName>Renci.SshNet</AssemblyName>
     <AssemblyOriginatorKeyFile>../Renci.SshNet.snk</AssemblyOriginatorKeyFile>
-    <LangVersion>5</LangVersion>
+    <LangVersion>8</LangVersion>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <ItemGroup>

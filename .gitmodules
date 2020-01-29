@@ -1,0 +1,4 @@
+[submodule "src/SSH.NET.Cryptography"]
+	path = src/SSH.NET.Cryptography
+	url = git@github.com:sadesyllas/Cryptography.git
+	track = support-netstandard
