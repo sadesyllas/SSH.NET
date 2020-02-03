@@ -9,6 +9,25 @@
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <AssemblyOriginatorKeyFile>../Renci.SshNet.snk</AssemblyOriginatorKeyFile>
         <SignAssembly>true</SignAssembly>
+
+        <!-- <<<< NUGET -->
+        <Version>2020.0.0-beta-20200203-1</Version>
+        <Title>SSH.NET.NEW</Title>
+        <Authors>Renci (+ sadesyllas)</Authors>
+        <PackageLicenseUrl>https://github.com/sadesyllas/SSH.NET/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/sadesyllas/SSH.NET</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/sadesyllas/SSH.NET</PackageProjectUrl>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <Description>SSH.NET is a Secure Shell (SSH) library for .NET, optimized for parallelism and with broad framework support.</Description>
+        <PackageReleaseNotes>
+            A Secure Shell (SSH) library for .NET, optimized for parallelism.
+
+            Adapted for netstandard2.1 from https://github.com/sshnet/SSH.NET.
+        </PackageReleaseNotes>
+        <Copyright>2012-2017, RENCI</Copyright>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <PackageTags>ssh scp sftp</PackageTags>
+        <!-- NUGET >>>> -->
     </PropertyGroup>
 
     <PropertyGroup>
@@ -29,19 +48,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\Renci.SshNet\Documentation\Renci.SshNet.content">
-        <Link>Renci.SshNet\Documentation\Renci.SshNet.content</Link>
-      </Content>
-      <Content Include="..\Renci.SshNet\Documentation\SshNet.shfbproj">
-        <Link>Renci.SshNet\Documentation\SshNet.shfbproj</Link>
-      </Content>
-      <Content Include="..\Renci.SshNet\Renci.SshNet.csproj">
-        <Link>Renci.SshNet\Renci.SshNet.csproj</Link>
-      </Content>
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\SSH.NET.Cryptography\src\SshNet.Security.Cryptography.NETStandard.New\SshNet.Security.Cryptography.NETStandard.New.csproj" />
+      <PackageReference Include="SshNet.Security.Cryptography.New" Version="2020.0.0-beta-20200203-1" />
     </ItemGroup>
 
 </Project>
